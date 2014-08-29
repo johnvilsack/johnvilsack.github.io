@@ -1,0 +1,85 @@
+/*============================================================================*/
+/* Responsive CSS */
+/*============================================================================*/
+
+@media (max-width: 722px) {
+
+/* Center the logo */
+  #logoblock {
+    margin: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+  }
+  #logo {
+    margin: 0 0 0 0;
+  }
+
+  header {
+    border-bottom: 5px solid $tColorHeadBorder;
+    width: 100%;
+  }
+/* Dramatic alteration of the navigation */
+  nav {
+
+  text-align: center;
+  width: 100%;
+  margin: auto auto auto auto;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 3px solid darken($tColorResponsiveBG, 10%);
+  background: $MenuResponsiveBackground;
+  font-size: 75%;
+
+
+    a {
+      color: $tColorResponsiveA;
+      padding: 5px 5px 5px 5px;
+      margin-right: 5px;
+      margin-top: 5px;
+      text-transform: uppercase;
+      border-radius: 0 0 5px 5px;
+      border-bottom: 0px;
+      text-shadow: none;
+
+      &.current-page {
+        color: $tColorResponsiveCurrent;
+        border-bottom: none;
+        background: none;
+      }
+
+      &:hover {
+        background: none;
+        transform: translateY(0px);
+        border-bottom: none;
+        color: $tColorResponsiveHover;
+      }
+    }
+  }
+
+  .container {
+    margin: 0px auto;
+    top: 45px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 10px solid rgba(0,0,0,.05);
+  }
+
+  main {
+      margin: 0px 0px 0px 0px;
+      padding: 0 0 0 0;
+      border: none;
+  }
+
+  .page-title { padding-top: 10px;}
+
+}
+
+@media print {
+  nav { display: none; }
+  #logo { display: block; margin-left: 0px;}
+  #subheader {
+    display: none;
+  }
+}

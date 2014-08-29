@@ -1,0 +1,170 @@
+/*============================================================================*/
+/* Layout and Base Colors CSS */
+/*============================================================================*/
+
+/* 3 Major Frames are Header, Container, Footer */
+  header {
+    background-color: $tColorHeadBG;
+    padding: 0 $SiteMargin 0 $SiteMargin;
+    position: relative;
+    top:0px;
+    z-index: 50;
+    width: 100%;
+  }
+
+  footer {
+    height: 52px;
+    margin-top: 60px;
+    position:relative; 
+    bottom:0; 
+    z-index:75;
+    padding: 10px $SiteMargin 10px $SiteMargin;
+    -webkit-box-shadow: -1px 1px 32px 7px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 1px 32px 7px rgba(0,0,0,0.2);
+    box-shadow: -1px 1px 32px 7px rgba(0,0,0,0.2);
+  }
+
+  #header-container {
+    max-width: $HeaderMaxWidth;
+    margin: 0 auto;
+  }
+
+  #logoblock {
+    display: inline-block;
+    margin-left: $ContentMargin;
+    height: 100px;
+    width: 260px;
+    background-color: $tColorLogoBG;
+
+  }
+
+  #logo {
+    margin-top: 25px;
+
+    .first {
+      font: normal normal $LogoMainThickness $LogoMainSize/$FontMainLineHeight $FontAlt;
+      letter-spacing: -0.06em;
+      color: $LogoMainColor;
+      font-family: $LogoMainFontFace;
+      text-shadow: 0 0 20px $tColorLogoGlow;
+    }
+
+    .last {
+      font: normal normal $LogoSubThickness $LogoSubSize/$FontMainLineHeight $FontAlt;
+      letter-spacing: -0.02em;
+      color: $LogoSecondColor;
+      font-family: $LogoSubFontFace;
+      text-shadow: 0 0 20px $tColorLogoGlow;
+    }
+  }
+
+  .container {
+    margin: 0 auto;
+    margin-bottom: 130px;
+    background-color: $tColorContentBG;
+    position: relative;
+    top:45px; /* Moves Container up */
+    bottom:0px;
+    z-index: 1;
+    max-width: $ContentMaxWidth;
+    -webkit-box-shadow: 0px 2px 16px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 2px 16px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 16px 5px rgba(0,0,0,0.15);
+    border: 20px solid rgba(0,0,0,.05);
+    padding-bottom: 90px; /* Whitespace */
+  }
+
+  nav {
+    float: right;
+    margin-right: $ContentMargin;
+
+    a { 
+      display: inline-block;
+      color: $tColorMenuA;
+      padding: 50px 20px 20px 20px;
+      margin-right: 5px;
+      margin-top: -15px;
+      text-transform: uppercase;
+      border-radius: 0 0 5px 5px;
+      border-bottom: 2px groove $tColorMenuNonBorder;
+      font: $MenuFont;
+      text-shadow: 0 0 20px $tColorLogoGlow;
+
+      &.current-page {
+        color: $tColorMenuCurrent;
+        border-bottom: none;
+        background: $MenuLinkCurrentBG;
+        text-shadow: none;
+      }
+
+      &:hover {
+        color: $tColorMenuHover;
+        border-bottom: none;
+        border-bottom: 1px solid $MenuLinkBorder;
+        font-weight: $MenuLinkHoverWeight;
+        background: $MenuLinkHoverBG;
+        transform: translateY(5px);
+        text-shadow: none;
+      }
+    }
+  }
+
+  main {
+    padding: 0 $ArticleMargin 0 $ArticleMargin;
+  }
+
+  article {
+    padding: 0 5px 0 5px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+    }
+  }
+
+  footer
+  {
+    background-color: $tColorFooterBG;
+    border-top: 5px solid $tColorFooterBorder;
+    text-align: center;
+    color: $tColorFooterText;
+    margin-top: 50px;
+
+
+    a { 
+      display: inline-block;
+      color: $tColorFooterA;
+      margin-right: 5px;
+      font-weight: 800;
+
+      &:hover {
+        color: $tColorFooterHover;
+        border-bottom: none;
+        font-weight: $MenuLinkHoverWeight;
+      }
+
+      &.current-page {
+        color: $tColorFooterCurrent;
+        border-bottom: none;
+        background: $MenuLinkCurrentBG;
+      }
+
+    }
+  }
+
+.inset {
+  display: block;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+#postdate {
+  text-align:center;
+  font: normal normal $FontPostdateWeight $FontPostdateSize/$FontMainLineHeight $FontMain;
+  color: $FontPostdateColor;
+  border-top: 1px solid rgba($FontPostdateColor, .05);
+  border-bottom: 1px solid rgba($FontPostdateColor, .05);
+  padding: 10px;
+  margin: -5px 0px -5px 0px;
+}

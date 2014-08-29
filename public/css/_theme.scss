@@ -1,0 +1,198 @@
+/*============================================================================*/
+/* Theme Variables */
+/* These can be edited to adjust how the site itself feels, but are not
+   required to be edited if simply changing the theme.                        */
+/*============================================================================*/
+
+/*========================== Color Control =============================*/
+
+$sitePink: $Pink;
+$siteBlue: darken($LightBlue, 25%);
+$siteGreen: $Green;
+$siteDeepBlack: lighten($Black, 30%);
+$siteBrightWhite: #fff;
+$CalebBlack: #5b5b5b;
+
+$LogoOne: $siteDeepBlack;
+$LogoTwo: $siteDeepBlack;
+
+/* Master Colors */
+$tColorOne:        $sitePink; /* Links and your attention */
+$tColorTwo:        $siteBlue; /* Accent, usually same as Structure */
+$tColorThree:      $Cyan; /* Navigating away from content, remove focus */
+$tColorStructure:  $siteBlue; /* The color of the framework */
+$tColorOneOverlay: $siteBrightWhite; /* Tables and anywhere ColorOne is Overlaying in content */
+$tColorBlack:      $siteDeepBlack; /* Site's darkest black */
+$tColorWhite:      $siteBrightWhite; /* Site's brightest white */
+
+
+/* Wireframe */
+$tColorGradientBGStart:	rgba(darken($tColorWhite, 30%), .5);
+$tColorGradientBGStop:     $tColorWhite;
+$tColorBodyBG:        $tColorWhite; /* Background in <body> */
+$tColorHeadBG:        none; /* Header background */
+$tColorHeadBorder:    rgba($tColorStructure,1); /* Line at top of page */
+$tBackgroundImage: '/public/images/tritrans75.png';
+
+
+$tColorContentBG:     rgba($tColorWhite, .5); /* Container of Content */
+$tColorFooterBorder:  $tColorStructure; /* Border in footer */
+$tColorFooterBG:      $tColorStructure; /* Footer background */
+
+/* Logo */
+$tColorLogoMain: $LogoOne; /* The Primary Logo Piece */
+$tColorLogoLine: none; /* The HR line */
+$tColorLogoSub:  $LogoTwo; /* The Secondary Logo Piece */
+$tColorLogoBG:   none; /* Logo BG, usually "none;" */
+$tColorLogoGlow: #fff;
+
+/* Text */
+$tColorSiteText:     $CalebBlack; /* Content text */
+$tColorPageTitle:    $tColorBlack; /* Color of page's primary title.  Usually ColorOne */
+$tColorSectionTitle: $tColorThree; /* Subheadings, or H2 */
+$tColorHighlight:    $Yellow; /* The Highlighted text area background */
+$tColorFooterText:   $tColorWhite; /* Footer text */
+
+/* Links */
+$tColorA:            $tColorOne;
+$tColorResponsiveBG: $tColorStructure;
+$tColorMenuA:        $tColorTwo;
+$tColorResponsiveA:  $tColorWhite;
+$tColorFooterA:      $tColorOne;
+
+$tColorAHover:          $tColorOne;
+$tColorMenuHoverBG:     rgba($tColorStructure, 1);
+$tColorMenuHover:       $tColorOne;
+$tColorResponsiveHover: $tColorOne;
+$tColorFooterHover:     $tColorThree;
+
+$tColorMenuCurrent:       $tColorThree;
+$tColorMenuCurrentBG:     rgba($tColorStructure,1); /* Menu Background - should be same as top */
+$tColorMenuNonBorder: rgba($tColorStructure,.15);
+$tColorResponsiveCurrent: $tColorThree;
+$tColorFooterCurrent:     lighten($tColorStructure, 40%);
+
+// $tColorMenuCurrent:       $tColorThree;
+// $tColorMenuCurrentBG:     $tColorStructure; /* Menu Background - should be same as top */
+// $tColorResponsiveCurrent: $tColorThree;
+// $tColorFooterCurrent:     $tColorThree;
+
+/* Code Editor */
+$CodeBackground: darken($tColorWhite, 12%);
+$CodeTextColor:  $tColorBlack;
+
+/*========================== Sizes and Settings =============================*/
+
+/* Fonts */
+$FontMain: 'Roboto', Arial, sans-serif;
+$FontMainSize: 27px;
+$FontMainWeight: 400;
+$FontMainLineHeight: 1.6;
+
+$FontAlt: 'Raleway', 'Roboto',Arial, sans-serif;
+$FontAltSize: medium;
+$FontAltWeight: 400;
+$FontAltLineHeight: 1.6;
+
+$FontDecorate: 'Roboto', Arial, sans-serif;
+$FontDecorateSize: medium;
+$FontDecorateWeight: 400;
+$FontDecorateLineHeight: 1.6;
+
+/* Links */
+$SiteLinkWeight: 400;
+$SiteLinkFont: normal normal $SiteLinkWeight $FontMainSize/$FontMainLineHeight $FontMain;
+
+/* Frame Sizes */
+$HeaderMaxWidth: 800px;
+$ContentMaxWidth: 680px;
+$SiteMargin: 5%;                                /* How collapsed do you want the site */
+$ContentMargin: 5%;														/* Added to give the site some organic depth */
+$ArticleMargin: 20px;
+
+/* Code Font */
+$FontCode: 'Droid Sans Mono', Consolas, monospace;
+$FontCodeSize: 0.8em;
+
+/* hr */
+$LineImage: "/public/images/crest-trans.png";
+
+/* Menu */
+$MenuFont: normal normal 600 $FontMainSize/$FontMainLineHeight $FontMain;
+$MenuLinkBorder: $tColorStructure;
+$MenuLinkHoverBG: linear-gradient($tColorMenuHoverBG, darken($tColorMenuHoverBG, 5%));
+$MenuLinkCurrentBG: linear-gradient($tColorMenuCurrentBG, darken($tColorMenuCurrentBG, 5%));
+$MenuLinkHoverWeight: 600;
+$MenuResponsiveBackground: linear-gradient($tColorResponsiveBG, darken($tColorResponsiveBG, 3%));
+
+/* Blockquotes */
+$BlockquoteBackground: lighten($tColorOne, 45%);
+$BlockquoteText: $tColorBlack;
+$BlockquoteBorder: $tColorOne;
+
+/* Quotes */
+$QuoteSize: 225%;
+$QuoteColor: $tColorThree;
+$QuoteThickness: 800;
+
+/* Tables */
+$TableTheadBG: $tColorOne;
+$TableTheadText: $tColorOneOverlay;
+$TableBorder: $tColorOne;
+
+/* Page Title */
+$TitleThickness: 300;
+$TitleSize: 350%;
+$TitleColor: $tColorPageTitle;
+
+/* Subtitle  */
+$SubtitleThickness: 700;
+$SubtitleSize: 200%;
+$SubtitleColor: $tColorSectionTitle;
+
+/* Section Header */
+$SectionThickness: 700;
+$SectionSize: 200%;
+$SectionColor: $tColorSectionTitle;
+$SectionLinkColor: $tColorA;
+$SectionLinkHover: $tColorAHover;
+
+/* SubSection H2 Headers */
+$SubH2Weight: 400;
+$SubH2Size: 110%;
+
+/* Headings */
+$H3Thickness: 700;
+$H3Size: 125%;
+$H3Color: $tColorBlack;
+
+$H4Thickness: 800;
+$H4Size: 125%;
+$H4Color: $tColorOne;
+
+/* Various HTML */
+$FontWeightMark: 600;
+$FontWeightQ: 400;
+$FontWeightStrong: 600;
+$FontSizeSup: 70%;
+
+/* Logo */
+$LogoMainThickness: 100;
+$LogoMainSize: 64px;
+$LogoSubThickness: 900;
+$LogoSubSize: 64px;
+$LogoHR: $tColorLogoLine;
+$LogoMainColor: $tColorLogoMain;
+$LogoSecondColor: $tColorLogoSub;
+$LogoMainFontFace: 'Roboto',Arial, sans-serif;
+$LogoSubFontFace: 'Roboto',Arial, sans-serif;
+
+$LogoMiniThickness: 900;
+$LogoMiniSize: 300%;
+$LogoMiniColor: $SectionColor;
+
+$FontPostdateWeight: 400;
+$FontPostdateSize: 125%;
+$FontPostdateColor: rgba($tColorBlack, .3);
+
+

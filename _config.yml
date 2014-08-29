@@ -1,0 +1,19 @@
+markdown: redcarpet
+highlighter: pygments
+permalink: pretty
+
+# Setup
+title: John Vilsack
+tagline: 'Technology, Operations, Project Management'
+description: 'Technology Professsional in Saint Paul, Minnesota'
+url: http://johnvilsack.github.io
+baseurl: /
+author:
+  name: 'John Vilsack'
+
+redcarpet:
+  extensions: [autolink, highlight, quote, strikethrough, footnotes, tables]
+
+sass:
+  sass_dir: public/css
+  style: :expanded

@@ -1,0 +1,44 @@
+
+/*============================================================================*/
+/* SASS Palette */
+/*============================================================================*/
+
+
+$White: #ffffff;
+$Black: #000000;
+$Neu87: lighten($Black, 13%); /* Text */
+$Neu54: lighten($Black, 46%); /* Secondary Text and Icons */
+$Neu26: darken($White, 26%); /* Hints */
+$Neu12: darken($White, 12%); /* Dividers */
+$Neu02: darken($White, 2%); /* Site Background */
+
+$Red: #dd191d;
+$Pink: #d81b60;
+$Purple: #8e24aa;
+$DeepPurple: #5e35b1;
+$Indigo: #3949ab;
+$Blue: #4e6cef;
+$LightBlue: #039be5;
+$Cyan: #00acc1;
+$Teal: #00897b;
+$Green: #0a8f08;
+$LightGreen: #7cb342;
+$Lime: #c0ca33;
+$Yellow: #fdd835;
+$Amber: #ffb300;
+$Orange: #fb8c00;
+$DarkOrange: #f4511e;
+$Brown: #6d4c41;
+$Grey: #757575;
+$BlueGrey: #546e7a;
+
+$googText: #404040;
+$googWarning: $Yellow;
+$googMuted: #737373;
+$googLearn: $Pink;
+$googHighlight: $LightBlue;
+$googDanger: $Red;
+$googRemember: $Cyan;
+
+//#f0f0f0
+

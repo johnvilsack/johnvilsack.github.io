@@ -1,0 +1,15 @@
+- url: /
+  title: Home
+  section: Home
+
+- url: /about
+  title: Me
+  section: Me
+
+- url: /work
+  title: My Work
+  section: Work
+
+- url: /blog
+  title: Blog
+  section: Blog
