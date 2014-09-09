@@ -1,7 +1,7 @@
 /*============================================================================*/
 /* Theme Variables */
 /* These can be edited to adjust how the site itself feels, but are not
-   required to be edited if simply changing the theme.                        */
+	 required to be edited if simply changing the theme.                        */
 /*============================================================================*/
 
 /*========================== Color Control =============================*/
@@ -11,7 +11,7 @@ $siteBlue: darken($LightBlue, 25%);
 $siteGreen: $Green;
 $siteDeepBlack: lighten($Black, 30%);
 $siteBrightWhite: #fff;
-$CalebBlack: #5b5b5b;
+$SiteTextBlack: #5b5b5b;
 
 $LogoOne: $siteDeepBlack;
 $LogoTwo: $siteDeepBlack;
@@ -30,7 +30,7 @@ $tColorWhite:      $siteBrightWhite; /* Site's brightest white */
 $tColorGradientBGStart:	rgba(darken($tColorWhite, 30%), .5);
 $tColorGradientBGStop:     $tColorWhite;
 $tColorBodyBG:        $tColorWhite; /* Background in <body> */
-$tColorHeadBG:        none; /* Header background */
+$tColorHeadBG:        $tColorWhite; /* Header background */
 $tColorHeadBorder:    rgba($tColorStructure,1); /* Line at top of page */
 $tBackgroundImage: '/public/images/tritrans75.png';
 
@@ -47,7 +47,7 @@ $tColorLogoBG:   none; /* Logo BG, usually "none;" */
 $tColorLogoGlow: #fff;
 
 /* Text */
-$tColorSiteText:     $CalebBlack; /* Content text */
+$tColorSiteText:     $SiteTextBlack; /* Content text */
 $tColorPageTitle:    $tColorBlack; /* Color of page's primary title.  Usually ColorOne */
 $tColorSectionTitle: $tColorThree; /* Subheadings, or H2 */
 $tColorHighlight:    $Yellow; /* The Highlighted text area background */

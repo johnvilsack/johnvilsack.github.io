@@ -1,0 +1,243 @@
+::selection {
+	background-color: rgba($tColorHighlight, .75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	 text-rendering: optimzeLegibility;
+}
+
+a{
+	font: $SiteLinkFont;
+	color: $tColorA;
+	transition: all ease-in-out .4s;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		color: $tColorAHover;
+	}
+}
+
+h2  {
+		font: normal normal $SubtitleThickness $SubtitleSize/$FontMainLineHeight $FontAlt;
+		letter-spacing: -0.02em;
+		line-height: 1.15;
+		color: $SubtitleColor;
+		text-align: center;
+		margin-top: 25px;
+
+
+}
+	 .subsection { 
+			text-align: left;
+			a {
+				font: normal normal $SubH2Weight $SubtitleSize/$FontMainLineHeight $FontAlt;
+				font-size: $SubH2Size;
+			}
+}
+
+h3 {
+		font: normal normal $H3Thickness $H3Size $FontMain;
+		color: $H3Color;
+		margin-bottom: -10px;
+		margin-top: 40px;
+
+	a {
+			font: normal normal $H3Thickness $H3Size $FontMain;
+			color: $H3Color;
+		&:hover, &:focus {
+			font: normal normal $H3Thickness $H3Size $FontMain;
+			color: $H3Color;
+		}
+	}
+}
+
+h4 {
+		font: normal normal $H4Thickness $H4Size $FontAlt;
+		color: $H4Color;
+		margin-bottom: -10px;
+	a {
+			font: normal normal $H4Thickness $H4Size $FontAlt;
+			color: $H4Color;
+		&:hover, &:focus {
+			font: normal normal $H4Thickness $H4Size $FontAlt;
+			color: $H4Color;
+		}
+	}
+}
+
+h6 {
+	text-align:center;
+	color: rgba(#000, .2)
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid $TableTheadBG;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+	td, th {
+		padding: 5px 10px;
+	}
+
+	thead {
+		background-color: $TableTheadBG;
+		color: $TableTheadText;
+	}
+
+	tbody tr:nth-child(even) {
+	 background-color: lighten($TableTheadBG, 60%);
+	}
+}
+
+blockquote {
+	padding: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-left: 20px solid $BlockquoteBorder;
+	border-right: 20px solid $BlockquoteBorder;
+	border-top: 2px solid $BlockquoteBorder;
+	border-bottom: 2px solid $BlockquoteBorder;
+	background-color: $BlockquoteBackground;
+	color: $BlockquoteText;
+}
+
+hr {
+	border : 0;
+	height: 25px;
+	background : url($LineImage) center center no-repeat;
+}
+
+/* Specific to Jekyll */
+mark {
+	background-color: lighten($tColorHighlight, 15%);
+	padding: 2px 5px 2px 5px;
+	font-weight: $FontWeightMark;
+}
+
+q {
+	font: normal normal $QuoteThickness $QuoteSize/$FontMainLineHeight $FontAlt;
+	letter-spacing: -0.02em;
+	line-height: 1.15;
+	color: $SubtitleColor;
+	text-align: left;
+	margin: 10px;
+	margin-left: 5px;
+	width: 200px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 2px;
+	color: $QuoteColor;
+	font-style: italic;
+	text-transform: uppercase;
+	background-color: darken($tColorContentBG, 7%);
+	border: 1px solid darken($tColorContentBG, 14%);
+}
+
+del {
+	color: lighten($tColorSiteText, 30%);
+}
+
+strong {
+	font-weight: $FontWeightStrong;
+}
+
+
+sup {
+	font-size: $FontSizeSup;
+}
+sup::before {
+	content: "[";
+}
+
+sup::after {
+	content: "]";
+}
+
+/* Code Blocks */
+code {
+	font-family: $FontCode;
+	font-size: $FontCodeSize;
+}
+
+p code {
+	padding: 5px 5px 5px 5px;
+	border-radius: 3px;
+	white-space: nowrap;
+	color: $CodeTextColor;
+	background-color: $CodeBackground;
+
+}
+
+.page-title {
+	font: normal normal $TitleThickness $TitleSize/$FontMainLineHeight $FontAlt;
+	letter-spacing: -0.00em;
+	line-height: 1;
+	color: $TitleColor;
+	text-align: center;
+}
+
+.highlight {
+	padding: 20px;
+	border-radius: 6px;
+	background-color: $CodeBackground;
+	color: $CodeTextColor;
+	line-height: 1;
+	overflow-x: auto;
+	overflow-y: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+
+	code {
+		font-size: $FontCodeSize;
+	}
+}
+
+#logo {
+	text-align: center;
+	padding-top: 0 0 0 0;
+	background-color: $tColorLogoBG;
+	margin: 0 0 0 0;
+
+		.first {
+			font: normal normal $LogoMainThickness $LogoMainSize/$FontMainLineHeight $FontAlt;
+			letter-spacing: -0.06em;
+			color: $LogoMainColor;
+			font-family: $LogoMainFontFace;
+			text-shadow: 0 0 20px $tColorLogoGlow;
+		}
+
+		.last {
+			font: normal normal $LogoSubThickness $LogoSubSize/$FontMainLineHeight $FontAlt;
+			letter-spacing: -0.02em;
+			color: $LogoSecondColor;
+			font-family: $LogoSubFontFace;
+			text-shadow: 0 0 20px $tColorLogoGlow;
+		}
+}
+
+.inset {
+	display: block;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+
+#postdate {
+	text-align:center;
+	font: normal normal $FontPostdateWeight $FontPostdateSize/$FontMainLineHeight $FontMain;
+	color: $FontPostdateColor;
+	border-top: 1px solid rgba($FontPostdateColor, .05);
+	border-bottom: 1px solid rgba($FontPostdateColor, .05);
+	padding: 10px;
+	margin: -5px 0px -5px 0px;
+}
+
+.inset {
+	display: block;
+	margin-left: 20px;
+	margin-top: -10px;
+}

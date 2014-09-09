@@ -5,10 +5,21 @@
 {% include head_js.html %}
 </head>
 <body>
-<header>{% include html_header.html %}</header>
-<div class="container">
-{{ content }}	
-</div>
-<footer>{% include html_footer.html %}</footer>
+
+  <header>{% include html_header.html %}
+  </header>
+
+  <div class="flex">
+    <div class="paper">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer>
+    {% include html_footer.html %}
+  </footer>
+
+{% include body_js.html %}
+
 </body>
 </html>

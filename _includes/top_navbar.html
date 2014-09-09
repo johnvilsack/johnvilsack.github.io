@@ -1,3 +1,4 @@
-<nav>{% for link in site.data.links %}{% if link.section != "Home" %}
-	<a href="{{ link.url }}" title="{{ link.title }}"{% if page.section == link.section %} class="current-page"{% endif %}>{{ link.title }}</a>
-{% endif %}{% endfor %}</nav>
+
+      <nav>{% for link in site.data.links %}{% if link.section != "Home" %}
+        <a href="{{ link.url }}" title="{{ link.title }}"{% if page.section == link.section %} class="current-page"{% endif %}>{{ link.title }}</a>{% endif %}{% endfor %}
+      </nav>
