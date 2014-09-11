@@ -18,10 +18,10 @@
 				<description>
 				{% assign words = post.content | number_of_words %}
 				{% if words > 50 %}
-					<![CDATA[{{ post.excerpt | strip_html}}
+					<![CDATA[{{ post.excerpt | xml_escape}}
 					<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Read More...</a>]]>
 				{% else %}
-					{{ post.content | xml_escape}}
+					<![CDATA[{{ post.content | xml_escape}}]]>
 				{% endif %}
 				</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
