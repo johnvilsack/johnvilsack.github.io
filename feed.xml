@@ -18,8 +18,8 @@
 				<description>
 				{% assign words = post.content | number_of_words %}
 				{% if words > 50 %}
-					{{ post.excerpt | strip_html}}
-					<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Read More...</a>
+					<![CDATA[{{ post.excerpt | strip_html}}
+					<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Read More...</a>]]>
 				{% else %}
 					{{ post.content | xml_escape}}
 				{% endif %}
