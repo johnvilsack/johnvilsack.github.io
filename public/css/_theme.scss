@@ -31,6 +31,8 @@ $tColorGradientBGStart:	rgba(darken($tColorWhite, 30%), .5);
 $tColorGradientBGStop:     $tColorWhite;
 $tColorBodyBG:        $tColorWhite; /* Background in <body> */
 $tColorHeadBG:        $tColorWhite; /* Header background */
+$tColorHeadBG:        rgba($tColorWhite, .01); /* Header background */
+$tColorHeadBGResponsive:	$tColorWhite; /* Header background */
 $tColorHeadBorder:    rgba($tColorStructure,1); /* Line at top of page */
 $tBackgroundImage: '/public/images/tritrans75.png';
 
