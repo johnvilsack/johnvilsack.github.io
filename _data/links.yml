@@ -3,8 +3,8 @@
   section: Home
 
 - url: /about
-  title: Me
-  section: Me
+  title: About
+  section: About
 
 - url: /work
   title: My Work
