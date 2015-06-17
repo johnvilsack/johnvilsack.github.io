@@ -17,5 +17,3 @@ section: About
 	<li>Github: <a href="https://github.com/johnvilsack" target="_blank">johnvilsack</a></li>
 	<li>LinkedIn: <a href="https://www.linkedin.com/profile/view?id=25350438" target="_blank">John Vilsack</a></li>
 </ul>
-
-<p>What the heck is <a href="ChikkaChiChi">ChikkaChiChi</a>?</p>
