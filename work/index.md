@@ -17,7 +17,7 @@ These are a few of the areas I have needed to execute projects in during my 10 y
 <span class="inset">I have never been afraid to get my own hands dirty when necessity requires invention.<a href="software-development">➡</a></span>
 
 <h2 class="subsection"><a href="warehouse">Warehouse and Order Fulfillment</a></h2>
-<span class="inset">Scaling from 400 to over 50,000 skus required new procedures and custom software that could only come from effective project management.<a href="warehouse">➡</a></span>
+<span class="inset">Scaling from 400 to over 350,000 skus required new procedures and custom software that could only come from effective project management.<a href="warehouse">➡</a></span>
 
 <h2 class="subsection"><a href="process-management">Process Management</a></h2>
 <span class="inset">Internal communication required a reboot as the company grew, and many internal processes needed agility tweaking to stream workflow more effectively.<a href="process-management">➡</a></span>
