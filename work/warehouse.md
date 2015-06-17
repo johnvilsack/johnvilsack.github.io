@@ -9,4 +9,4 @@ Additionally, the project used state-of-the-art Apple devices and sleds used at 
 
 Implementation allows for product identification, product location, assignment and reassignment in batch, order manifest accuracy, user activity logging, shelf restock request from backstock, inventory adjustment requests, UPC and EAN capture, and much more. All features require minimum interaction with the software to maximize user efficiency and accuracy.
 
-The company is now capable of scaling well past the current sixty thousand SKU count that currently exists and fulfilling over 5,000 orders per day from three warehouses.
+The company is now capable of scaling well past the current 360,000 SKU count that currently exists and fulfilling over 5,000 orders per day from three warehouses.
