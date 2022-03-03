@@ -8,8 +8,8 @@ feedtitle: 'The Blog of John Vilsack'
 feeddesc: 'The website and blog of John Vilsack, a technology professional in Saint Paul, Minnesota.'
 tagline: 'Technology, Operations, Project Management'
 description: 'The website and blog of John Vilsack, a technology professional in Saint Paul, Minnesota.'
-url: http://johnvilsack.github.io
-baseurl: /
+url: https://johnvilsack.github.io
+baseurl: https://johnvilsack.github.io/
 author:
   name: 'John Vilsack'
   email: 'john@vilsack.com'
