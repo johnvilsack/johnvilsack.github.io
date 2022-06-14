@@ -9,7 +9,7 @@ feeddesc: 'The website and blog of John Vilsack, a technology professional in Sa
 tagline: 'Technology, Operations, Project Management'
 description: 'The website and blog of John Vilsack, a technology professional in Saint Paul, Minnesota.'
 url: https://johnvilsack.github.io
-baseurl: /
+baseurl: /site/
 author:
   name: 'John Vilsack'
   email: 'john@vilsack.com'
