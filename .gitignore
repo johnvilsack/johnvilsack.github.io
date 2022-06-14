@@ -7,3 +7,4 @@ site/.bundle/
 site/vendor/
 site/Gemfile
 site/Gemfile.lock
+build.ps1
