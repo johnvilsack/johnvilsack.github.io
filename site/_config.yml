@@ -1,0 +1,25 @@
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+
+# Setup
+title: John Vilsack
+feedtitle: 'The Blog of John Vilsack'
+feeddesc: 'The website and blog of John Vilsack, a technology professional in Saint Paul, Minnesota.'
+tagline: 'Technology, Operations, Project Management'
+description: 'The website and blog of John Vilsack, a technology professional in Saint Paul, Minnesota.'
+url: https://johnvilsack.github.io
+baseurl: /
+author:
+  name: 'John Vilsack'
+  email: 'john@vilsack.com'
+
+# Deprecated: Replaced by kramdown
+# redcarpet:
+#   extensions: [autolink, highlight, quote, strikethrough, footnotes, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed
+
+  # Feed Specific
