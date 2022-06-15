@@ -103,7 +103,7 @@ $FontDecorateLineHeight: 1.6;
 
 /* Links */
 $SiteLinkWeight: 400;
-$SiteLinkFont: normal normal $SiteLinkWeight $FontMainSize/$FontMainLineHeight $FontMain;
+$SiteLinkFont: normal normal $SiteLinkWeight calc($FontMainSize/$FontMainLineHeight) $FontMain;
 
 /* Frame Sizes */
 $HeaderMaxWidth: 800px;
@@ -120,7 +120,7 @@ $FontCodeSize: 0.8em;
 $LineImage: "/public/images/crest-trans.png";
 
 /* Menu */
-$MenuFont: normal normal 600 $FontMainSize/$FontMainLineHeight $FontMain;
+$MenuFont: normal normal 600 calc($FontMainSize/$FontMainLineHeight) $FontMain;
 $MenuLinkBorder: $tColorStructure;
 $MenuLinkHoverBG: linear-gradient($tColorMenuHoverBG, darken($tColorMenuHoverBG, 5%));
 $MenuLinkCurrentBG: linear-gradient($tColorMenuCurrentBG, darken($tColorMenuCurrentBG, 5%));
