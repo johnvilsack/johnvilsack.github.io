@@ -14,12 +14,9 @@ author:
   name: 'John Vilsack'
   email: 'john@vilsack.com'
 
-# Deprecated: Replaced by kramdown
-# redcarpet:
-#   extensions: [autolink, highlight, quote, strikethrough, footnotes, tables]
-
 sass:
   sass_dir: public/css
-  style: :compressed
+  implementation: sass-embedded
+  style: expanded
 
   # Feed Specific
