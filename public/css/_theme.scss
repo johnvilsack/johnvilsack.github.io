@@ -102,15 +102,15 @@ $FontDecorateWeight: 400;
 $FontDecorateLineHeight: 1.6;
 
 /* PRECOMPILED FONT FIX */
-$bodyFontSize: 16.875px; /* math.div($FontMainSize, $FontMainLineHeight) */
-$SiteLinkFontSize: 16.875px; /* math.div($FontMainSize, $FontMainLineHeight) */
-$MenuFontSize: 16.875px; /* math.div($FontMainSize, $FontMainLineHeight) */
-$h2FontSize: 33.75px; /* 200% math.div($SubtitleSize, $FontMainLineHeight) */
-$h2SubSectionFontSize: 33.75px; /* math.div($SubtitleSize, $FontMainLineHeight) */
-$qFontSize: 16.875px; /* calc($QuoteSize/$FontMainLineHeight) */
-$pageTitleFontSize: 60px; /* calc($TitleSize/$FontMainLineHeight) */
+$bodyFontSize: 100%; /* math.div($FontMainSize, $FontMainLineHeight) */
+$SiteLinkFontSize: 100%; /* math.div($FontMainSize, $FontMainLineHeight) */
+$MenuFontSize: 100%; /* math.div($FontMainSize, $FontMainLineHeight) */
+$h2FontSize: 125%; /* 200% math.div($SubtitleSize, $FontMainLineHeight) */
+$h2SubSectionFontSize: 125%; /* math.div($SubtitleSize, $FontMainLineHeight) */
+$qFontSize: 100%; /* calc($QuoteSize/$FontMainLineHeight) */
+$pageTitleFontSize: 220%; /* calc($TitleSize/$FontMainLineHeight) */
 $logoTextSize: 40px; /* math.div($LogoMainSize, $FontMainLineHeight) */
-$postDateSize: 21px; /* math.div($FontPostdateSize, $FontMainLineHeight) */
+$postDateSize: 125%; /* math.div($FontPostdateSize, $FontMainLineHeight) */
 
 /* Links */
 $SiteLinkWeight: 400;
