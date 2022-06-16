@@ -18,7 +18,7 @@ body {
 	background-attachment: fixed;
 	background-color: $tColorBodyBG;
 	color: $tColorSiteText;
-	font: normal normal $FontMainWeight calc($FontMainSize/$FontMainLineHeight) $FontMain;
+	font: normal normal $FontMainWeight $bodyFontSize $FontMain;
 	border-top: 5px solid $tColorHeadBorder; /* Creates top border */
 	background-image: url($tBackgroundImage), linear-gradient(to bottom, $tColorGradientBGStart 0, $tColorGradientBGStop 200px);
 	line-height: 25.5px;

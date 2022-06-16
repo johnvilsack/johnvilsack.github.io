@@ -101,9 +101,20 @@ $FontDecorateSize: medium;
 $FontDecorateWeight: 400;
 $FontDecorateLineHeight: 1.6;
 
+/* PRECOMPILED FONT FIX */
+$bodyFontSize: 16.875px; /* math.div($FontMainSize, $FontMainLineHeight) */
+$SiteLinkFontSize: 16.875px; /* math.div($FontMainSize, $FontMainLineHeight) */
+$MenuFontSize: 16.875px; /* math.div($FontMainSize, $FontMainLineHeight) */
+$h2FontSize: 33.75px; /* 200% math.div($SubtitleSize, $FontMainLineHeight) */
+$h2SubSectionFontSize: 33.75px; /* math.div($SubtitleSize, $FontMainLineHeight) */
+$qFontSize: 16.875px; /* calc($QuoteSize/$FontMainLineHeight) */
+$pageTitleFontSize: 60px; /* calc($TitleSize/$FontMainLineHeight) */
+$logoTextSize: 40px; /* math.div($LogoMainSize, $FontMainLineHeight) */
+$postDateSize: 21px; /* math.div($FontPostdateSize, $FontMainLineHeight) */
+
 /* Links */
 $SiteLinkWeight: 400;
-$SiteLinkFont: normal normal $SiteLinkWeight calc($FontMainSize/$FontMainLineHeight) $FontMain;
+$SiteLinkFont: normal normal $SiteLinkWeight   $FontMain;
 
 /* Frame Sizes */
 $HeaderMaxWidth: 800px;
@@ -120,7 +131,7 @@ $FontCodeSize: 0.8em;
 $LineImage: "/public/images/crest-trans.png";
 
 /* Menu */
-$MenuFont: normal normal 600 calc($FontMainSize/$FontMainLineHeight) $FontMain;
+$MenuFont: normal normal 600 $MenuFontSize $FontMain;
 $MenuLinkBorder: $tColorStructure;
 $MenuLinkHoverBG: linear-gradient($tColorMenuHoverBG, darken($tColorMenuHoverBG, 5%));
 $MenuLinkCurrentBG: linear-gradient($tColorMenuCurrentBG, darken($tColorMenuCurrentBG, 5%));

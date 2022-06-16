@@ -18,7 +18,7 @@ a{
 }
 
 h2  {
-		font: normal normal $SubtitleThickness calc($SubtitleSize/$FontMainLineHeight) $FontAlt;
+		font: normal normal $SubtitleThickness $h2FontSize $FontAlt;
 		letter-spacing: -0.02em;
 		line-height: 1.15;
 		color: $SubtitleColor;
@@ -28,7 +28,7 @@ h2  {
 	 .subsection { 
 			text-align: left;
 			a {
-				font: normal normal $SubH2Weight calc($SubtitleSize/$FontMainLineHeight) $FontAlt;
+				font: normal normal $SubH2Weight $h2SubSectionFontSize $FontAlt;
 				font-size: $SubH2Size;
 			}
 }
@@ -115,7 +115,7 @@ mark {
 }
 
 // q {
-// 	font: normal normal $QuoteThickness calc($QuoteSize/$FontMainLineHeight) $FontAlt;
+// 	font: normal normal $QuoteThickness  $FontAlt;
 // 	letter-spacing: -0.02em;
 // 	line-height: 1.15;
 // 	color: $SubtitleColor;
@@ -171,7 +171,7 @@ p code {
 }
 
 .page-title {
-	font: normal normal $TitleThickness calc($TitleSize/$FontMainLineHeight) $FontAlt;
+	font: normal normal $TitleThickness $pageTitleFontSize $FontAlt;
 	letter-spacing: -0.00em;
 	line-height: 1;
 	color: $TitleColor;
@@ -202,7 +202,7 @@ p code {
 	margin: 0 0 0 0;
 
 		.first {
-			font: normal normal $LogoMainThickness calc($LogoMainSize/$FontMainLineHeight) $FontAlt;
+			font: normal normal $LogoMainThickness $logoTextSize $FontAlt;
 			letter-spacing: -0.06em;
 			color: $LogoMainColor;
 			font-family: $LogoMainFontFace;
@@ -210,7 +210,7 @@ p code {
 		}
 
 		.last {
-			font: normal normal $LogoSubThickness calc($LogoSubSize/$FontMainLineHeight) $FontAlt;
+			font: normal normal $LogoSubThickness $logoTextSize $FontAlt;
 			letter-spacing: -0.02em;
 			color: $LogoSecondColor;
 			font-family: $LogoSubFontFace;
@@ -226,7 +226,7 @@ p code {
 
 #postdate {
 	text-align:center;
-	font: normal normal $FontPostdateWeight calc($FontPostdateSize/$FontMainLineHeight) $FontMain;
+	font: normal normal $FontPostdateWeight $postDateSize $FontMain;
 	color: $FontPostdateColor;
 	border-top: 1px solid rgba($FontPostdateColor, .05);
 	border-bottom: 1px solid rgba($FontPostdateColor, .05);

@@ -16,7 +16,7 @@ author:
 
 sass:
   sass_dir: public/css
-  implementation: sass-embedded
+  # implementation: sass-embedded
   style: expanded
 
   # Feed Specific
