@@ -2,13 +2,17 @@
   title: Home
   section: Home
 
-- url: /about
-  title: About Me
-  section: About
+# - url: /about
+#   title: About Me
+#   section: About
 
-- url: /work
-  title: My Work
-  section: Work
+- url: /experience
+  title: Work Experience
+  section: Experience
+
+- url: /contact
+  title: Contact Me
+  section: Contact
 
 # - url: /blog
 #   title: Blog
